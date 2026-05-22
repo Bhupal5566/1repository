@@ -1,0 +1,10 @@
+            setTimeout(() => {
+                toast.classList.remove('translate-y-0', 'opacity-100');
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+
+        window.addEventListener('DOMContentLoaded', loadConfig);
+    </script>
+</body>
+</html>
